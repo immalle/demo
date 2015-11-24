@@ -21,6 +21,6 @@ This doesn't work for `.md`-files (like this `README.md`) because they have a di
 
 By pressing `Y` in GitHub (Yes, that's right, just on the website) it changes to current commit, **including the URL**:
 
-![screenshot-specific-commit](https://cloud.githubusercontent.com/assets/2732197/11383906/c5bb7d30-930b-11e5-866c-c61fb00af369.png)
+![screenshot-specific-commit](https://cloud.githubusercontent.com/assets/2732197/11383924/e0c88e06-930b-11e5-9f19-221a567126a7.png)
 
 This is a much safer way to link, especially when using line numbers. The `master`-branch will always point to the latest version and can change enormously!
