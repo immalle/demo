@@ -54,6 +54,14 @@ Try it out:
 
 [Subdir/test.js](Subdir/test.js)
 
+
+## Linking to a parent directory
+
+You can use `..` as is common in **relative paths** to link to files in a parent
+directory.
+
+Try it out by visiting [This file in a subdirectory](Subdir/link_to_parent.md).
+
 ## Further reading
 
 https://help.github.com/articles/relative-links-in-readmes/
