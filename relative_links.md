@@ -1,32 +1,59 @@
 # Relative links in Github
 
-You can link to another directory in your repository:
+You can link to other files or directories in your **current repository** using relative links.
 
-[Subdir](Subdir)
-
-Don't forget: Markdown syntax for link is `[Description][Link]`.
-
-You can also link to specific files in your repository:
-
-Code:
+You have to use the markdown syntax for links :
 
 ```
-[test.js](test.js)
+[Description](Link)
 ```
 
-Example:
 
-[test.js](test.js)
+## Linking to a file
 
-or
+Markdown code:
 
-Code:
+```
+[A link to test.js](test.js)
+```
+
+Try it out:
+
+[A link to test.js](test.js)
+
+
+## Linking to a directory
+
+Markdown code:
+
+```
+[A link to Subdir](Subdir)
+```
+
+Try it out:
+
+[A link to Subdir](Subdir)
+
+When visiting a subdirectory in GitHub, by default it will :
+
+- show the files in that directory
+- show the parsed `README.md` of that directory
+
+
+## Linking to a file in a (sub)directory
+
+Links to a file can also be in a sub-directory.
+
+Markdown code:
 
 ```
 [Subdir/test.js](Subdir/test.js)
 ```
 
-Example:
+Try it out:
 
 [Subdir/test.js](Subdir/test.js)
 
+## Further reading
+
+https://help.github.com/articles/relative-links-in-readmes/
