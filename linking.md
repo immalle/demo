@@ -31,6 +31,11 @@ GitHub will show the specific **tree-hash** of `test.js` :
 This is a much safer way to link since the `master`-branch will always point to
 the latest version!
 
+# Exercise
+
+Try it out! Go to the latest version of `test.js` : https://github.com/immalle/demo/blob/master/test.js and press `Y`.
+Watch the URL.
+
 # Further reading
 
 - https://help.github.com/articles/using-keyboard-shortcuts/ : GitHub supports many shortcuts!
