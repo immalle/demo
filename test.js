@@ -1,1 +1,10 @@
 console.log("hello");
+console.log("I");
+console.log("am");
+console.log("printing");
+console.log("multiple");
+console.log("lines");
+console.log("on");
+console.log("a");
+console.log("javascript");
+console.log("console");
