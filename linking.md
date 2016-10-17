@@ -14,4 +14,4 @@ the URL to the commit **you are currently viewing** :
 This is a much safer way to link since the `master`-branch will always point to
 the latest version!
 
-This link points to the first version of `test.js` in this repository: https://github.com/immalle/demo/blob/5c6ac6437718b5a9c2fd8b1fca157534f8148aa8/test.js
+> This link points to the first version of `test.js` in this repository: https://github.com/immalle/demo/blob/5c6ac6437718b5a9c2fd8b1fca157534f8148aa8/test.js
