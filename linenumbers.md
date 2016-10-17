@@ -33,3 +33,10 @@ https://github.com/immalle/demo/blob/86f4c8f19ae680f1572357baa75e39706d38031c/te
 
 Creating a link like this by pressing `SHIFT` while selecting the line numbers.
 
+## Exercise
+
+- Go to the latest version of `test.js` : https://github.com/immalle/demo/blob/master/test.js 
+- Select some line numbers (with or without `SHIFT`)
+- Don't forget to press `Y` to generate a fixed link
+- (Depening on your OS and browser) Press `ALT-D` and `CTRL-C` to copy the link
+- Paste it somewhere! (for example in a chatroom or a GitHub issue)
