@@ -30,3 +30,8 @@ GitHub will show the specific **tree-hash** of `test.js` :
 
 This is a much safer way to link since the `master`-branch will always point to
 the latest version!
+
+# Further reading
+
+- https://help.github.com/articles/using-keyboard-shortcuts/ : GitHub supports many shortcuts!
+- https://git-scm.com/book/en/v2/Git-Internals-Git-Objects : Tree hashes represent tree-objects in git. A tree-object is very similar to a subdirectory in a filesystem.
