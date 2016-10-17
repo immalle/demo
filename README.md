@@ -1,58 +1,12 @@
-# demo
-Demo'ing git and github features...
+# Demo
 
-## Linking to line numbers on Github
+This repo demonstrates some git and GitHub-features.
 
-Example link:
+- [Linking to files in GitHub](linking.md) : use `Y` to link to a specific
+  version of a file, not just the latest `master`-branch
+- [Linking to line numbers](linking_linenumbers.md) : use `shift` for ranges and
+  keep in mind `.md`-files are parsed to HTML
+- [Linking to subdirectories](relative_links.md) : GitHub supports **relative
+  paths** to files in your repo. Opening a folder views `README.md` by default
+  (compare with `index.html`).
 
-https://github.com/immalle/demo/blob/5c6ac6437718b5a9c2fd8b1fca157534f8148aa8/test.js#L1
-
-Create a link like this by clicking on the number when viewing the file in Git:
-
-![screenschot](https://cloud.githubusercontent.com/assets/2732197/11383747/a63762b8-930a-11e5-8c75-b819b9a9c60d.png)
-
-This doesn't work for `.md`-files (like this `README.md`) because they have a different viewer (which parses the Markdown-code).
-
-## Linking to files on Github in general
-
-[This](https://github.com/immalle/demo/blob/master/test.js) is a bad link, because `master` can change.
-
-![screenshot-master-branch](https://cloud.githubusercontent.com/assets/2732197/11383906/c5bb7d30-930b-11e5-866c-c61fb00af369.png)
-
-By pressing `Y` in GitHub (Yes, that's right, just on the website) it changes to current commit, **including the URL**:
-
-![screenshot-specific-commit](https://cloud.githubusercontent.com/assets/2732197/11383924/e0c88e06-930b-11e5-9f19-221a567126a7.png)
-
-This is a much safer way to link, especially when using line numbers. The `master`-branch will always point to the latest version and can change enormously!
-
-## Relative links in Github
-
-You can link to another directory in your repository:
-
-[Subdir](Subdir)
-
-Don't forget: Markdown syntax for link is `[Description][Link]`.
-
-You can also link to specific files in your repository:
-
-Code:
-
-```
-[test.js](test.js)
-```
-
-Example:
-
-[test.js](test.js)
-
-or
-
-Code:
-
-```
-[Subdir/test.js](Subdir/test.js)
-```
-
-Example:
-
-[Subdir/test.js](Subdir/test.js)
