@@ -47,7 +47,7 @@ Links to a file can also be in a sub-directory.
 Markdown code:
 
 ```
-[Subdir/test.js](Subdir/test.js)
+[A link to test.js in Subdir](Subdir/test.js)
 ```
 
 Try it out:
