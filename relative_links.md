@@ -60,7 +60,7 @@ Try it out:
 You can use `..` as is common in **relative paths** to link to files in a parent
 directory.
 
-Try it out by visiting [This file in a subdirectory](Subdir/link_to_parent.md).
+Try it out by visiting [this file in a subdirectory](Subdir/link_to_parent.md).
 
 ## Further reading
 
