@@ -1,10 +1,3 @@
-<style>
-.new {
-  background-color: red;
-  color: yellow;
-}
-</style>
-
 # Demo
 
 This repo demonstrates some git and GitHub-features.
@@ -13,7 +6,7 @@ This repo demonstrates some git and GitHub-features.
   version of a file, not just the latest `master`-branch
 - [Linking to line numbers](linenumbers.md) : use `shift` for ranges and
   keep in mind `.md`-files are parsed to HTML
-  <span class="new">new</span>
+  <span style="background-color:red;color:yellow">new</span>
 - [Linking to subdirectories](relative_links.md) : GitHub supports **relative
   paths** to files in your repo. Opening a folder views `README.md` by default
   (compare with `index.html`).
